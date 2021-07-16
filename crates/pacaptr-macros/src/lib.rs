@@ -1,8 +1,6 @@
 mod compat_table;
 mod test_dsl;
 
-use std::{convert::TryFrom, iter::FromIterator};
-
 use itertools::Itertools;
 use litrs::StringLit;
 use proc_macro2::TokenStream;

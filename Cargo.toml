@@ -1,4 +1,5 @@
 # cargo-features = ["strip"]
+cargo-features = ["edition2021"]
 
 [package]
 authors = ["Rami3L <rami3l@outlook.com>"]
@@ -12,7 +13,7 @@ description = "Pacman-like syntax wrapper for many package managers."
 license = "GPL-3.0"
 readme = "README.md"
 
-edition = "2018"
+edition = "2021"
 include = ["LICENSE", "Cargo.toml", "src/**/*.rs", "build.rs"]
 exclude = ["dist/**/*", "docs/**/*"]
 # build = "build.rs"

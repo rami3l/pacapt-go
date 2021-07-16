@@ -1,6 +1,8 @@
+cargo-features = ["edition2021"]
+
 [package]
 authors = ["rami3l <rami3l@outlook.com>"]
-edition = "2018"
+edition = "2021"
 name = "xtask"
 version = "0.1.0"
 
@@ -10,6 +12,9 @@ version = "0.1.0"
 anyhow = "1.0.42"
 const_format = "0.2.14"
 pico-args = "0.4.2"
-regex = { version = "1.5.4", default-features = false, features = ["std", "unicode-perl"] }
+regex = { version = "1.5.4", default-features = false, features = [
+	"std",
+	"unicode-perl",
+] }
 xml-rs = "0.8.3"
 xshell = "0.1.14"

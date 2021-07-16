@@ -1,7 +1,5 @@
 //! Definitions for command line argument mapping and dispatching.
 
-use std::iter::FromIterator;
-
 use clap::{self, AppSettings, Clap};
 use itertools::Itertools;
 use tap::prelude::*;
